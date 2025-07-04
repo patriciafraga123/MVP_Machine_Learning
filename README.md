@@ -79,14 +79,13 @@ A comunicação entre front-end e back-end ocorre de forma assíncrona usando `f
         test_modelo.py
     model/
         modelo_nb.pkl
-    notebooks/
-        Notebook_MVP_Machine_Learning_Patricia.ipynb
 /front
     /templates
         index.html
     /static
         estilo.css
         script.js
+Notebook_MVP_Machine_Learning_Patricia.ipynb
 README.md
 requirements.txt
 ```
