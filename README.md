@@ -53,7 +53,7 @@ http://localhost:5000/
 A aplicação é composta por três principais camadas e seus respectivos arquivos:
 
 - **Notebook (Google Colab)**  
-  - `modelo_personalidade.ipynb`: Responsável por todo o pipeline de machine learning — desde o carregamento dos dados até a exportação do modelo final (`modelo_nb.pkl`). Inclui análises detalhadas, gráficos, tuning e conclusão.
+  - `Notebook_MVP_Machine_Learning_Patricia.ipynb`: Responsável por todo o pipeline de machine learning — desde o carregamento dos dados até a exportação do modelo final (`modelo_nb.pkl`). Inclui análises detalhadas, gráficos, tuning e conclusão.
 
 - **Back-end (Flask)**  
   - `api/app.py`: Carrega o modelo treinado e expõe uma rota `/prever` que recebe dados via POST (JSON) e retorna a predição da personalidade.
