@@ -57,7 +57,7 @@ A aplicação é composta por três principais camadas e seus respectivos arquiv
 
 - **Back-end (Flask)**  
   - `api/app.py`: Carrega o modelo treinado e expõe uma rota `/prever` que recebe dados via POST (JSON) e retorna a predição da personalidade.
-  - `modelo_nb.pkl`: Arquivo serializado do modelo Naive Bayes exportado do notebook.
+  - `api/model/modelo_nb.pkl`: Arquivo serializado do modelo Naive Bayes exportado do notebook.
 
 - **Front-end (HTML + CSS + JavaScript)**  
   - `templates/index.html`: Página com o formulário do questionário para o usuário responder.
@@ -79,6 +79,8 @@ A comunicação entre front-end e back-end ocorre de forma assíncrona usando `f
         test_modelo.py
     model/
         modelo_nb.pkl
+    notebooks/
+        Notebook_MVP_Machine_Learning_Patricia.ipynb
 /front
     /templates
         index.html
